@@ -1,7 +1,5 @@
-body {
-  margin: 0;
-}
-nav {
+
+/* nav {
   background-color: lightgray;
   min-height: 60px;
 }
@@ -9,9 +7,6 @@ header {
   background-color: violet;
   min-height: 150px;
 }
-/* header:nth-child(2) {
-  background-color: rgb(112, 250, 193);
-} */
 main {
   background-color: rgb(255, 226, 62);
   min-height: 350px;
@@ -41,8 +36,11 @@ article {
 }
 aside article {
   background-color: rgb(248, 37, 37);
-}
+} */
 
+body {
+  margin: 0;
+}
 .row {
   display: flex;
 }
@@ -51,8 +49,9 @@ aside article {
   /* flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0; */
+  background-color: rgba(238, 130, 238, 0.5);
 }
 .container {
-  width: 900px;
-  margin: 0 auto;
+  width: 980px;
+  margin: 0 auto; 
 } 
